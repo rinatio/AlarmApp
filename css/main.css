@@ -1,0 +1,67 @@
+body {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+/* Custom container */
+.container-narrow {
+    margin: 0 auto;
+    max-width: 700px;
+}
+.container-narrow > hr {
+    margin: 5px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+    margin: 10px 0;
+    text-align: center;
+}
+.jumbotron h1 {
+    font-size: 72px;
+    line-height: 1;
+}
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { height: 25px; margin-bottom: -25px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+.ui-timepicker-rtl{ direction: rtl; }
+.ui-timepicker-rtl dl { text-align: right; }
+.ui-timepicker-rtl dl dd { margin: 0 65px 10px 10px; }
+
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+    width: 245px;
+    height: 100px;
+}
+.jcarousel-skin-tango .jcarousel-item {
+    width: 75px;
+    height: 100px;
+}
+
+/* clock */
+.alarm img, .alarm.loaded .digit {
+    display: none;
+}
+.alarm.loaded img{
+    display: block;
+}
+
+.alarm {
+    position: relative;
+}
+.min, .hour {
+    position: absolute;
+    width: 4px;
+    height: 80px;
+    top: -2px;
+    left: 35.5px;
+}
